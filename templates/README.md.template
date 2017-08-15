@@ -7,6 +7,6 @@
 
 ## Usage
 
-```docker run --rm -v `pwd`/src:/app/src chrisgarrett/postgres```
+```docker run --rm -v pg_data:/var/lib/postgresql/data chrisgarrett/postgres:${VERSION}```
 
 ## Credits
