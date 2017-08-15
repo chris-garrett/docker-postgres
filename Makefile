@@ -1,4 +1,4 @@
-IMAGE_VERSION=9.6.1
+IMAGE_VERSION=9.6.4
 IMAGE_NAME=chrisgarrett/postgres
 
 all: build

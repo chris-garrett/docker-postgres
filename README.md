@@ -1,12 +1,12 @@
 # postgres
 
-* Postgres image 9.6.1
+* Postgres image 9.6.4
 
 ## Versions
-- postgres/alpine 9.6.1
+- postgres/alpine 9.6.4
 
 ## Usage
 
-```docker run --rm -v `pwd`/src:/app/src chrisgarrett/postgres```
+```docker run --rm -v pg_data:/var/lib/postgresql/data chrisgarrett/postgres:9.6.4```
 
 ## Credits
